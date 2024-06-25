@@ -1,0 +1,92 @@
+﻿<Window x:Class="SGLauncher2._0.Windows.window_downgrade"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:local="clr-namespace:SGLauncher2._0.Windows"
+        xmlns:fa="http://schemas.fontawesome.com/icons/fonts"
+        mc:Ignorable="d"
+        Title="window_downgrade" Height="500" Width="900"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Border Background="#fff" CornerRadius="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Column="0">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="25,0" FontSize="18" FontFamily="/Fonts/#Noto Sans KR" FontWeight="Medium">
+                    AE 다운그레이드 가이드
+                    <LineBreak/>
+                    <Run FontWeight="Regular" FontSize="16">스카이림 AE가 감지되었습니다. 다음의 절차를 따라 스카이림을 다운그레이드 해야 합니다.</Run>
+                </TextBlock>
+            </Grid>
+
+            <Grid Grid.Row="1">
+
+                <Grid Name="page_1" d:Visibility="Collapsed">
+                    <TextBlock Margin="25" FontFamily="/Fonts/#Noto Sans KR" FontSize="16">
+                        Unofficial Skyrim Special Edition Downgrade Patcher(USSEDP)를 이용하여 AE를 다운그레이드 합니다.<LineBreak/>
+                        아래 버튼을 눌러 다운로드 하세요.
+                    </TextBlock>
+
+                    <StackPanel VerticalAlignment="Bottom" Margin="25">
+                        <Button HorizontalAlignment="Stretch" Click="gotonexus">
+                            NEXUSMODS 모드 페이지로 이동 (느림)
+                        </Button>
+                        <hc:Divider Margin="5">
+                            또는
+                        </hc:Divider>
+                        <Button HorizontalAlignment="Stretch" Style="{StaticResource ButtonPrimary}" Click="gotogoogledrive">
+                            구글 드라이브에서 다운로드 (빠름)
+                        </Button>
+
+                    </StackPanel>
+                </Grid>
+
+                <Grid Name="page_2" d:Visibility="Collapsed">
+                    <TextBlock Margin="25" FontFamily="/Fonts/#Noto Sans KR" FontSize="16">
+                        다운로드 받은 Unofficial Skyrim Special Edition Downgrade Patcher(USSEDP)를 실행하세요.
+                        <LineBreak/>
+                        실행 후 초록색 Start Patching 버튼을 누르세요. <LineBreak/>
+                        <Image Source="/Resources/ussedp.png" Height="280"/>
+                    </TextBlock>
+                </Grid>
+
+                <Grid Name="page_3">
+                    <TextBlock Margin="25" FontFamily="/Fonts/#Noto Sans KR" FontSize="16">
+                        " Finished Patching, enjoy your game! "
+                        <LineBreak/>
+                        이 나올때까지 기다려 주세요. 패치가 끝났다면 이 가이드를 닫아도 좋습니다.<LineBreak/>
+                        <Image Source="/Resources/ussedp.png" Height="280"/>
+                    </TextBlock>
+                </Grid>
+
+
+            </Grid>
+            
+            
+            <Grid Grid.Row="2">
+                <Button Name="button_previous" Click="previous" HorizontalAlignment="Left" Margin="25,0" Width="75" FontFamily="/Fonts/#Noto Sans KR">
+                    이전
+                </Button>
+                <Button Name="button_next" Click="next" HorizontalAlignment="Right" Style="{StaticResource ButtonPrimary}" Margin="25,0" Width="75" FontFamily="/Fonts/#Noto Sans KR">
+                    다음
+                </Button>
+            </Grid>
+
+            <Button Click="btn_close_click" Grid.Column="1" Foreground="#fff" BorderBrush="Transparent" Height="35" Width="35" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10" VerticalContentAlignment="Center">
+                <Button.Background>
+                    <SolidColorBrush Color="#000" Opacity="0.6"/>
+                </Button.Background>
+                <fa:FontAwesome Icon="Solid_Xmark" FontSize="20"/>
+            </Button>
+
+        </Grid>
+    </Border>
+</Window>

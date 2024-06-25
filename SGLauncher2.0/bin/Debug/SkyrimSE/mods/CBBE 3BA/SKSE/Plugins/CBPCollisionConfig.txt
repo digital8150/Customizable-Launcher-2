@@ -1,0 +1,165 @@
+##############################################################################
+# Extra Options
+##############################################################################
+[ExtraOptions]
+
+BellyBulge = 1.0	   			#This is the multiplier for the new special belly bulge for vagina penetration. Higher values would cause a bigger lump on the belly. 0 would disable this special setting.
+
+BellyBulgeMax = 20.0          #This is the horizontal max position of the belly bulge
+
+BellyBulgePosLowest = 4.0    #This is the vertical position of the belly bulge
+
+BellyBulgeReturnTime = 2.0 #This is the duration takes in seconds for belly bulge to return to its original position.
+
+BellyBulgeNodes=Genitals01,AnimObWWD 3, WWD 4, WWTongue 2,VLDick02,VLDick03,VLDick04,VLDick05,VLDick06,TD 3,TD 4,TD 5,TD 6,TD 7,SkeeverD 02,SkeeverD 03,SkeeverD 04,SkeeverD 05,SkeeverD 06,SkeeverD 07,TentacleLeft06,TentacleLeft07,TentacleLeft08,TentacleLeft09,TentacleLeft10,LTentacleLeft06,LTentacleLeft07,LTentacleLeft08,LTentacleLeft09,LTentacleLeft10,RTentacleLeft06,RTentacleLeft07,RTentacleLeft08,RTentacleLeft09,RTentacleLeft10,TailStinger,TailStinger 2,SCD 2,SCD 3,SCD 4,SCD 5,SCD 6,SCD 7,RD Base,RD 2,NP 14,NPB 14,HS 3,HS 4,HS 5,GS 3,GS 4,GiantTongue 1,GiantTongue 2,GiantTongue 3,Lurker Egg 01,Lurker Egg 02,Lurker Egg 03,Lurker Egg 04,Lurker Egg 05,Lurker Egg 06,GD 3,CO 3,COEgg 1,COEgg 2,COEgg 3,COEgg 4,COEgg 5,NPC IcePenis01,NPC IceGenital03,FD 3,FD 4,FD 5,FD 6,FD 7,DwarvenSpiderDildo01,DwarvenSpiderDildo02,DwarvenSpiderDildo03,DD 2,ElkD03, ElkD04,CO 3,CO 4,CO 5,COEgg 1,COEgg 2,COEgg 3,COEgg 4,COEgg 5,Worm Base,CDPenis 2,BoarDick03,BoarDick04,BoarDick05,Boar_Tongue1,Boar_Tongue2,Boar_Tongue3,Boar_Tongue4,BearD 4,BearD 5,BearD 6,BearD 7,BearD 8,BearD 9,BearTongue 1,BearTongue 2,BearTongue 3,BearTongue 4,BearTongue 5,Genitals01,AnimObjectB,CDPeniscol 2,COcol 3,COcol 4,COcol 5,DDcol 2,FDcol 3,GDcol 3,Base,RD 2,RDcol Base,RDcol 2,SCDcol 2,SkeeverDcol 02,TDcol 3,WWDcol 4,WWD 3, WWD 4, WWTongue 2,NPcol 14,NPBcol 14,BearDcol 4,BearTonguecol 1,COEggcol 1,COEggcol 2,COEggcol 3,COEggcol 4,COEggcol 5,Worm Basecol,GScol 3,GScol 4,HScol 3,HScol 4,HScol 5,GiantTonguecol 1,GiantTonguecol 2,GiantTonguecol 3,Lurker Egg col 01,Lurker Egg col 02,Lurker Egg col 03,Lurker Egg col 04,Lurker Egg col 05,Lurker Egg col 06,NPcol 14,NPBcol 14,CO 3,COEgg 1,COEgg 2,COEgg 3,COEgg 4,COEgg 5,ElkD03,DwarvenSpiderDeldo03,NPC IcePenis01,TailStinger,TentacleLeft06,WWTongue 2
+#These are the node names to match for belly bulge collision with pelvis node. You can add more than one separated with ","
+
+VaginaOpeningMultiplier = 2.5  #This is the multiplier for vagina opening.
+
+VaginaOpeningLimit = 9.0	  #This is the limit for vagina opening.
+
+##############################################################################
+# Node Lists
+##############################################################################
+
+[PlayerNodes] #These are predefined, so adding wouldn't have any effect. But if you remove them, you won't get collision for that node.
+LeftWandNode
+RightWandNode
+
+[AffectedNodes] #Define nodes here first, then set the collision spheres down
+NPC L Breast
+NPC R Breast
+NPC L Butt
+NPC R Butt
+#HDT Belly
+NPC Belly
+NPC Pelvis [Pelv]
+
+L Breast01
+R Breast01
+
+L Breast02
+R Breast02
+
+L Breast03
+R Breast03
+
+Clitoral1
+VaginaB1
+
+[ColliderNodes] #Define nodes here first, then set the collision spheres down
+#NPC L UpperArm [LUar]
+#NPC R UpperArm [RUar]
+
+NPC L Forearm [LLar]
+NPC R Forearm [RLar]
+
+NPC L Hand [LHnd]
+NPC R Hand [RHnd]
+
+NPC L Finger22 [LF22]
+NPC R Finger22 [RF22]
+
+NPC Genitals01 [Gen01]
+NPC Genitals02 [Gen02]
+NPC Genitals04 [Gen04]
+NPC Genitals06 [Gen06]
+
+##############################################################################
+# Collision spheres
+#
+# Multiple lines are supported.
+# You can include 0 and 100 weight settings for npcs separating them with |
+# Format is: x0,y0,z0,radius0 | x100,y100,z100,radius100
+#
+##############################################################################
+# Affected Nodes
+# C = Center / B = Bottom / T = Top / L = Left / R = Right / F = Front / B = Back / L-T = between L and T
+
+[NPC L Breast]
+-0.15,5.25,-3.5,3.5 | -0.65,5.25,-4.5,7
+[NPC R Breast]
+0.15,5.25,-3.5,3.5 | 0.65,5.25,-4.5,7
+
+[NPC L Butt]
+-1.25,3,-4.0,4 | -1.25,3,-4.0,6
+[NPC R Butt]
+1.25,3,-4.0,4 | 1.25,3,-4.0,6
+
+#[HDT Belly]
+#0,2.25,-1.5,4 | 0,2.25,-1.5,5
+
+[NPC Belly]
+0,2.25,-1.5,4 | 0,2.25,-1.5,5
+
+[NPC Pelvis [Pelv]] #For Female Genitals
+0,-1.5,1.5,6 | 0,-1.5,1.5,6
+
+[L Breast01]
+-0.25,2.75,-0.5,3.5 | -0.75,2.75,-1.5,7
+[R Breast01]
+0.25,2.75,-0.5,3.5 | 0.75,2.75,-1.5,7
+
+[L Breast02]
+0.75,-0.25,0,3.5 | 0.25,-0.25,-1,7
+[R Breast02]
+-0.75,-0.25,0,3.5 | -0.25,-0.25,-1,7
+
+[L Breast03]
+2,-3.75,-0.5,3.5 | 1.5,-3.75,-1.5,7
+[R Breast03]
+-2,-3.75,-0.5,3.5 | -1.5,-3.75,-1.5,7
+
+[VaginaB1]
+0,0.75,0.25,3.0 | 0,0.75,0.25,3.0 
+
+[Clitoral1]
+0,0,0,5,3.0 | 0,0,0.5,3.0 
+
+##############################################################################
+# Collider Nodes
+
+[LeftWandNode]
+0,-6.0,-2.0,3.0
+
+[RightWandNode]
+0,-6.0,-2.0,3.0
+
+#[NPC L UpperArm [LUar]]
+#-3.25,0,8,2.5 | -3.25,0,8,2.5
+#-2.5,0,12.75,2.3 | -2.5,0,12.75,2.3
+#-2,0.25,17,2.1 | -2,0.25,17,2.1
+#[NPC R UpperArm [RUar]]
+#3.25,0,8,2.5 | 3.25,0,8,2.5
+#2.5,0,12.75,2.3 | 2.5,0,12.75,2.3
+#2,0.25,17,2.1 | 2,0.25,17,2.1
+
+[NPC L Forearm [LLar]]
+-1.25,1.75,0,2 | -1.25,1.75,0,2
+-0.75,1.25,4,2 | -0.75,1.25,4,2
+-0.25,1.0,8,2 | -0.25,1.0,8,2
+0.25,0.75,12,2 | 0.25,0.75,12,2
+[NPC R Forearm [RLar]]
+1.25,1.75,0,2 | 1.25,1.75,0,2
+0.75,1.25,4,2 | 0.75,1.25,4,2
+0.25,1.0,8,2 | 0.25,1.0,8,2
+-0.25,0.75,12,2 | -0.25,0.75,12,2
+
+[NPC L Hand [LHnd]]
+-0.75,-1,5,4 | -0.75,-1,5,4
+[NPC R Hand [RHnd]]
+0.75,-1,5,4 | 0.75,-1,5,4
+
+[NPC L Finger22 [LF22]]
+-0.2,0.25,2,2 | -0.2,0.25,2,2
+[NPC R Finger22 [RF22]]
+0.2,0.25,2,2 | 0.2,0.25,2,2
+
+[NPC Genitals01 [Gen01]]
+0,0,0,2.1 | 0,0,0,2.1
+[NPC Genitals02 [Gen02]]
+0,1,0.1,1.9 | 0,1,0.1,1.9
+[NPC Genitals04 [Gen04]]
+0,0.5,0.1,1.7 | 0,0.5,0.1,1.7
+[NPC Genitals06 [Gen06]]
+0,0.3,0.1,1.5 | 0,0.3,0.1,1.5

@@ -1,0 +1,178 @@
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.exe.config
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.exe
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.pdb
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.AssemblyReference.cache
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\MainWindow.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\App.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0_MarkupCompile.cache
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0_MarkupCompile.lref
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\MainWindow.baml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.g.resources
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2._0.Properties.Resources.resources
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.GenerateResource.cache
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CoreCompileInputs.cache
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.exe
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.pdb
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.dll
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.pdb
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.xml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\App.baml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CopyComplete
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_Installation.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_Installation.baml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Core.dll
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.dll
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Shared.Net.dll
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.xml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\INIFileParser.dll
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\INIFileParser.xml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\skyrimdir.zip
+D:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\app.conf
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_launcher.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_launcher.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\app.conf
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\skyrimdir.zip
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.exe.config
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.exe
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.pdb
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Core.dll
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.dll
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Shared.Net.dll
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.dll
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\INIFileParser.dll
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.xml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.pdb
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.xml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\bin\Debug\INIFileParser.xml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.AssemblyReference.cache
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\MainWindow.g.cs
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_Installation.g.cs
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_launcher.g.cs
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_options.g.cs
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\App.g.cs
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0_MarkupCompile.cache
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0_MarkupCompile.lref
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\App.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\MainWindow.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_Installation.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_launcher.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_options.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.g.resources
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2._0.Properties.Resources.resources
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.GenerateResource.cache
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CoreCompileInputs.cache
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CopyComplete
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.exe
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.pdb
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_options.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_options.baml
+C:\VXACE\app.conf
+C:\VXACE\skyrimdir.zip
+C:\VXACE\SGLauncher2.0.exe.config
+C:\VXACE\SGLauncher2.0.exe
+C:\VXACE\SGLauncher2.0.pdb
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_update.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_update.baml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.g.cs
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_update.g.cs
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.baml
+C:\Users\Comviwer-PC\Desktop\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_update.baml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_autoinstall.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_autoinstall.baml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_filedownload.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_filedownload.baml
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_modinstall.g.cs
+D:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_modinstall.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\skyrimdir.zip
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\app.conf
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.exe.config
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.exe
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\SGLauncher2.0.pdb
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Core.dll
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.dll
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Shared.Net.dll
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.dll
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\INIFileParser.dll
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.xml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.pdb
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\HandyControl.xml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\bin\Debug\INIFileParser.xml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.AssemblyReference.cache
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\MainWindow.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_autoinstall.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_filedownload.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_Installation.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_launcher.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_modinstall.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_options.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_update.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\App.g.cs
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0_MarkupCompile.cache
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0_MarkupCompile.lref
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\App.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\MainWindow.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_autoinstall.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_filedownload.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_Installation.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_launcher.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_modinstall.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_options.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\Windows\window_update.baml
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.g.resources
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2._0.Properties.Resources.resources
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.GenerateResource.cache
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CoreCompileInputs.cache
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CopyComplete
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.exe
+F:\Projects\SGLauncher2.0\SGLauncher2.0\obj\Debug\SGLauncher2.0.pdb
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\skyrimdir.zip
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\app.conf
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\FontAwesome6.Core.dll
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.dll
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\FontAwesome6.Shared.Net.dll
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\HandyControl.dll
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\INIFileParser.dll
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\FontAwesome6.Fonts.Net.xml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\HandyControl.pdb
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\HandyControl.xml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\INIFileParser.xml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.AssemblyReference.cache
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\MainWindow.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_autoinstall.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_filedownload.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_Installation.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_launcher.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_modinstall.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_options.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_update.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\App.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\App.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\MainWindow.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_autoinstall.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\updaterModule\update_filedownload.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_Installation.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_launcher.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_modinstall.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_options.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_troubleshoot.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_update.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\SGLauncher2._0.Properties.Resources.resources
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.GenerateResource.cache
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CoreCompileInputs.cache
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\SGLauncher2.0.csproj.CopyComplete
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\Customizable Launcher.exe.config
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\Customizable Launcher.exe
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\bin\Debug\Customizable Launcher.pdb
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Properties\DesignTimeResources.baml
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Customizable Launcher_MarkupCompile.cache
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Customizable Launcher_MarkupCompile.lref
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Customizable Launcher.g.resources
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Customizable Launcher.exe
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Customizable Launcher.pdb
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_downgrade.g.cs
+F:\Projects\Customizable Launcher 2\SGLauncher2.0\obj\Debug\Windows\window_downgrade.baml

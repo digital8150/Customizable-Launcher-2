@@ -1,0 +1,10 @@
+		<hkobject name="#tkuc$201" class="hkbManualSelectorGenerator" signature="0xd932fab8">
+			<hkparam name="variableBindingSet">#tkuc$206</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">FNIS_ABC_MSG</hkparam>
+			<hkparam name="generators" numelements="5">
+				#4531 #tkuc$205 #tkuc$204 #tkuc$203 #tkuc$202
+			</hkparam>
+			<hkparam name="selectedGeneratorIndex">0</hkparam>
+			<hkparam name="currentGeneratorIndex">0</hkparam>
+		</hkobject>

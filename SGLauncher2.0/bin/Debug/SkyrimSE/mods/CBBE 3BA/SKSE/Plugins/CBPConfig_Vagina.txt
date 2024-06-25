@@ -1,0 +1,28 @@
+# START Vagina
+
+Vagina.stiffness 0.02
+Vagina.stiffness2 0.05
+Vagina.damping 0.08
+Vagina.maxoffset 1.0
+Vagina.timetick 2.0
+Vagina.linearX 1.0
+Vagina.linearY 5.5
+Vagina.linearZ 5.5
+Vagina.rotational 0.01
+Vagina.timeStep 1.0
+
+Labia.stiffness 0.02
+Labia.stiffness2 0.05
+Labia.damping 0.08
+Labia.maxoffset 1.0
+Labia.timetick 2.0
+Labia.linearX 1.0
+Labia.linearY 1.0
+Labia.linearZ 4
+Labia.rotational 0.01
+Labia.timeStep 1.0
+
+
+# END
+
+#Tuning.rate 300

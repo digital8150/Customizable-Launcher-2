@@ -1,0 +1,94 @@
+# START SOS
+
+NSOS01.gravityBias 0.00
+NSOS02.gravityBias 0.00
+NSOS03.gravityBias 0.00
+NSOS04.gravityBias 0.00
+NSOS05.gravityBias 0.00
+NSOS06.gravityBias 0.00
+
+NSOS01.gravityCorrection 0
+NSOS02.gravityCorrection 0
+NSOS03.gravityCorrection 0
+NSOS04.gravityCorrection 0
+NSOS05.gravityCorrection 0
+NSOS06.gravityCorrection 0
+
+# Linear spring stiffness 004
+NSOS01.stiffness 0.022
+NSOS02.stiffness 0.022
+NSOS03.stiffness 0.022
+NSOS04.stiffness 0.022
+NSOS05.stiffness 0.022
+NSOS06.stiffness 0.022
+
+# Quadratic Spring stiffness 0001
+NSOS01.stiffness2 0.03
+NSOS02.stiffness2 0.03
+NSOS03.stiffness2 0.03
+NSOS04.stiffness2 0.03
+NSOS05.stiffness2 0.03
+NSOS06.stiffness2 0.03
+
+# Velocity removed/tick 1.0 would be all velocity removed 012
+NSOS01.damping 0.044
+NSOS02.damping 0.044
+NSOS03.damping 0.044
+NSOS04.damping 0.044
+NSOS05.damping 0.044
+NSOS06.damping 0.044
+
+# Maximum number of units positio can diverge from target 64
+NSOS01.maxoffset 6
+NSOS02.maxoffset 6
+NSOS03.maxoffset 6
+NSOS04.maxoffset 6
+NSOS05.maxoffset 6
+NSOS06.maxoffset 6
+
+# Time Quanta for the physics in ms 4 means that a 16ms frame would be broken down into 4 4ms steps
+NSOS01.timetick 4
+NSOS02.timetick 4
+NSOS03.timetick 4
+NSOS04.timetick 4
+NSOS05.timetick 4
+NSOS06.timetick 4
+
+# Scale of the motion in X/Y/Z - Side, FrontnBack, UpnDown
+NSOS01.linearX 0.01
+NSOS01.linearY 0.01
+NSOS01.linearZ 0.01
+NSOS02.linearX 0.01
+NSOS02.linearY 0.01
+NSOS02.linearZ 0.01
+NSOS03.linearX 0.01
+NSOS03.linearY 0.01
+NSOS03.linearZ 0.01
+NSOS04.linearX 0.01
+NSOS04.linearY 0.01
+NSOS04.linearZ 0.01
+NSOS05.linearX 0.01
+NSOS05.linearY 0.01
+NSOS05.linearZ 0.01
+NSOS06.linearX 0.01
+NSOS06.linearY 0.01
+NSOS06.linearZ 0.01
+
+# Scale of the bones rotation around the X axis
+NSOS01.rotational 0.02
+NSOS02.rotational 0.02
+NSOS03.rotational 0.02
+NSOS04.rotational 0.02
+NSOS05.rotational 0.02
+NSOS06.rotational 0.02
+
+NSOS01.timeStep 0.5
+NSOS02.timeStep 0.5
+NSOS03.timeStep 0.5
+NSOS04.timeStep 0.5
+NSOS05.timeStep 0.5
+NSOS06.timeStep 0.5
+
+# END
+
+#Tuning.rate 60

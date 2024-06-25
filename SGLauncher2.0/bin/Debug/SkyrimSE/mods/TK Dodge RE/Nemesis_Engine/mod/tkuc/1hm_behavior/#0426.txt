@@ -1,0 +1,23 @@
+		<hkobject name="#0426" class="hkbModifierList" signature="0xa4180ca1">
+			<hkparam name="variableBindingSet">#0437</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">PlayerBowModList</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="modifiers" numelements="5">
+				#0434
+				#0432
+				#0431
+				#0429
+				#0427
+<!-- MOD_CODE ~tkuc~ OPEN -->
+				#tkuc$121
+<!-- CLOSE -->
+			</hkparam>
+		</hkobject>
+
+
+<!-- This removes Ultimate combat's bow pitch replacement with the vanilla one, while also adding on the Modifier List That We disable in #tkuc$107.txt -->
+<!-- Even though the Modifier list we re add does nothing it needs to be here as Nemesis doesn't like duplicate to original files -->
+<!-- by including the modifier list that's disabled Nemesis sees this edit and does it's thing correctly -->
+<!-- We can't delete other people's edits or make them empty files so this is next best thing -->
+<!-- TK Dodge Re Version reassigned the edited node to the correct ID, TK dodge RE moves all of regular OG TK dodge nodes around -->

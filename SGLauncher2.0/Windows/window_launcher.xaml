@@ -1,0 +1,252 @@
+﻿<Window x:Class="SGLauncher2._0.Windows.window_launcher"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SGLauncher2._0.Windows"
+        mc:Ignorable="d"
+        Title="window_launcher" Height="720" Width="1280"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:fa="http://schemas.fontawesome.com/icons/fonts"
+        AllowsTransparency="True"
+        Loaded="Window_loaded">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="/Fonts/#Noto Sans KR"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Border Name="border_main" MouseLeftButtonDown="window_dragmove" CornerRadius="5">
+        <Border.Background>
+            <ImageBrush/>
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="150"/>
+            </Grid.RowDefinitions>
+            
+            <!-- BackGround Video-->
+            <MediaElement Name="media_background" UnloadedBehavior="Manual" MediaEnded="repeat_media"  Margin="0" Grid.RowSpan="2" Width="1280" Height="720" Stretch="UniformToFill" IsMuted="True" Visibility="Collapsed">
+                
+            </MediaElement>
+
+            <TextBlock Name="title_launcher" Margin="0,15,0,0" VerticalAlignment="Top" FontSize="22" HorizontalAlignment="Center" FontFamily="/Fonts/#Montserrat-Alt1" Foreground="White">
+                SGAYRIM LAUNCHER
+                <TextBlock.Effect>
+                    <DropShadowEffect RenderingBias="Quality" Color="#FFFF5100" BlurRadius="15" ShadowDepth="0" Opacity="1">
+
+                    </DropShadowEffect>
+                </TextBlock.Effect>
+            </TextBlock>
+
+            <Button Click="btn_close_click" BorderBrush="Transparent" Height="35" Width="35" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10" VerticalContentAlignment="Center">
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0.6"/>
+                </Button.Background>
+                <fa:FontAwesome Icon="Solid_Xmark" FontSize="20"/>
+            </Button>
+
+            <Grid Grid.RowSpan="2" Margin="0,0,0,100">
+                <Border Name="border_changelog" Grid.RowSpan="1" Background="#801a1a1a" Width="600" Height="450" HorizontalAlignment="Left" VerticalAlignment="Center" CornerRadius="5" Margin="25">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <!-- changelog title-->
+                        <Grid Grid.Row="0">
+                            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="25,0" Foreground="#fff" FontFamily="/Fonts/#Noto Sans KR" FontWeight="Medium" FontSize="18">
+                                <fa:FontAwesome Icon="Solid_ClockRotateLeft"/> 체인지  로그
+                            </TextBlock>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <hc:ScrollViewer IsInertiaEnabled="True" Margin="25,0,25,25">
+                                <TextBlock Name="textblock_changelog" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#fff" FontFamily="/Fonts/#Noto Sans KR" FontWeight="Medium" FontSize="16">
+                                    여기에 변경사항이 나타납니다.
+                                </TextBlock>
+                            </hc:ScrollViewer>
+                        </Grid>
+                    </Grid>
+
+                </Border>
+            </Grid>
+
+
+
+
+            <!-- Footer Toolbar-->
+            <Grid Grid.Row="1">
+                <Border Background="#cc101010" Height="100" VerticalAlignment="Bottom" CornerRadius="0,0,5,5">
+                    <Grid Name="button_grid" Width="700" Margin="100,0,0,0" HorizontalAlignment="Left">
+                        <!--
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        -->
+
+                        <StackPanel Orientation="Horizontal">
+                            
+                        
+                        <Button Name="btn_modorganizer" Click="btn_modorganizer_click" Grid.Column="0" Height="125" Width="100" Background="Transparent" BorderBrush="Transparent" Foreground="#fff">
+                            <Button.Content>
+                                <StackPanel>
+                                    <fa:FontAwesome Icon="Solid_WandMagicSparkles" FontSize="22"/>
+                                    <TextBlock FontSize="12" TextAlignment="Center" Margin="0,15,0,0">
+                                        모드 오거나이저<LineBreak/>
+                                        실행하기
+                                    </TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+
+                            <Button.Effect>
+                                <DropShadowEffect Color="White" ShadowDepth="0" Opacity="0.6" />
+                            </Button.Effect>
+                        </Button>
+                            <Button Click="btn_screenshot_click" Grid.Column="1" Height="125" Width="100" Background="Transparent" BorderBrush="Transparent" Foreground="#fff">
+                            <Button.Content>
+                                <StackPanel>
+                                    <fa:FontAwesome Icon="Solid_Image" FontSize="22"/>
+                                    <TextBlock FontSize="12" TextAlignment="Center" Margin="0,15,0,0">
+                                        스크린샷<LineBreak/>
+                                        폴더 열기
+                                    </TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+
+                            <Button.Effect>
+                                <DropShadowEffect Color="White" ShadowDepth="0" Opacity="0.6"/>
+                            </Button.Effect>
+                        </Button>
+                        <hc:Badge Name="badge_update" ShowBadge="False" Text="New" BadgeMargin="0,0,0,0" Grid.Column="2" Style="{DynamicResource BadgePrimary}">
+                                <Button Click="btn_update_click" Grid.Column="2" Height="125" Width="100" Background="Transparent" BorderBrush="Transparent" Foreground="#fff">
+                                <Button.Content>
+                                    <StackPanel>
+                                        <fa:FontAwesome Icon="Solid_ClockRotateLeft" FontSize="22"/>
+                                        <TextBlock FontSize="12" TextAlignment="Center" Margin="0,15,0,0">
+                                        모드팩 / 런처<LineBreak/>
+                                        업데이트 확인
+                                        </TextBlock>
+                                    </StackPanel>
+                                </Button.Content>
+
+                                <Button.Effect>
+                                    <DropShadowEffect Color="White" ShadowDepth="0" Opacity="0.6" />
+                                </Button.Effect>
+                            </Button>
+                        </hc:Badge>
+                            <Button Click="btn_channel_click" Name="button_channel" Grid.Column="3" Height="125" Width="100" Background="Transparent" BorderBrush="Transparent" Foreground="#fff">
+                            <Button.Content>
+                                <StackPanel>
+                                    <fa:FontAwesome Icon="Solid_PaperPlane" FontSize="22"/>
+                                    <TextBlock FontSize="12" TextAlignment="Center" Margin="0,15,0,0">
+                                        툴리우스 채널<LineBreak/>
+                                        바로가기
+                                    </TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+
+                            <Button.Effect>
+                                <DropShadowEffect Color="White" ShadowDepth="0" Opacity="0.6" />
+                            </Button.Effect>
+                        </Button>
+                            <Button Grid.Column="5" Height="125" Width="100" Background="Transparent" BorderBrush="Transparent" Foreground="#fff" Click="btn_options_click">
+                            <Button.Content>
+                                <StackPanel>
+                                    <fa:FontAwesome Icon="Solid_Gears" FontSize="22"/>
+                                    <TextBlock FontSize="12" TextAlignment="Center" Margin="0,15,0,0">
+                                        환경설정<LineBreak/>
+
+                                    </TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+
+                            <Button.Effect>
+                                <DropShadowEffect Color="White" ShadowDepth="0" Opacity="0.6" />
+                            </Button.Effect>
+                        </Button>
+                            <Button  Grid.Column="4" Height="125" Width="100" Background="Transparent" BorderBrush="Transparent" Foreground="#fff" Click="btn_troubleshoot_click">
+                            <Button.Content>
+                                <StackPanel>
+                                    <fa:FontAwesome Icon="Solid_ScrewdriverWrench" FontSize="22"/>
+                                    <TextBlock FontSize="12" TextAlignment="Center" Margin="0,15,0,0">
+                                        모드팩<LineBreak/>
+                                        자가진단
+                                    </TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+
+                            <Button.Effect>
+                                <DropShadowEffect Color="White" ShadowDepth="0" Opacity="0.6" />
+                            </Button.Effect>
+                        </Button>
+                            <Button Name="button_addoninstall"  Grid.Column="6" Height="125" Width="100" Background="Transparent" BorderBrush="Transparent" Foreground="#fff" Click="btn_addoninstall_click">
+                            <Button.Content>
+                                <StackPanel>
+                                    <fa:FontAwesome Icon="Solid_PuzzlePiece" FontSize="22"/>
+                                    <TextBlock FontSize="12" TextAlignment="Center" Margin="0,15,0,0">
+                                        추가 모드<LineBreak/>
+                                        설치
+                                    </TextBlock>
+                                </StackPanel>
+                            </Button.Content>
+
+                            <Button.Effect>
+                                <DropShadowEffect Color="White" ShadowDepth="0" Opacity="0.6" />
+                            </Button.Effect>
+                        </Button>
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+                <Button Name="btn_gamestart" Click="btn_gamestart_click" Height="120" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,50,0" Style="{StaticResource ButtonPrimary}">
+                    <Button.Content>
+                        <TextBlock FontFamily="/Fonts/#Montserrat-Alt1" FontSize="32" >
+                             GAME START
+                            <TextBlock.Effect>
+                                <DropShadowEffect Color="White" ShadowDepth="0" BlurRadius="10" RenderingBias="Quality" Opacity="0.6"/>
+                            </TextBlock.Effect>
+                        </TextBlock>
+                    </Button.Content>
+
+                    <Button.Effect>
+                        <DropShadowEffect RenderingBias="Quality" Color="#FFFF641C" BlurRadius="15" ShadowDepth="0" Opacity="0.6">
+
+                        </DropShadowEffect>
+                    </Button.Effect>
+                </Button>
+                <TextBlock Visibility="Collapsed" Name="textblock_gameisrunning" Foreground="#fff" FontSize="16" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,50,5">
+                    게임이 실행중입니다.
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="White" ShadowDepth="0"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                
+
+
+            </Grid>
+
+            <Button hc:BorderElement.CornerRadius="10" Click="btn_togglevideo_click" Grid.RowSpan="2" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Bottom"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#7F000000" BorderBrush="{x:Null}" Margin="25,0,0,125" Visibility="Collapsed">
+                <fa:FontAwesome  Name="icon_togglevideo" Icon="Solid_Video" FontSize="22" Foreground="#fff"/>
+            </Button>
+
+            <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalAlignment="Right">
+                <StackPanel hc:Growl.GrowlParent="True" VerticalAlignment="Top" Margin="0,10,10,10"/>
+            </ScrollViewer>
+
+
+        </Grid>
+    </Border>
+</Window>

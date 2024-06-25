@@ -1,0 +1,48 @@
+# START Leg
+
+# Linear spring stiffness 004
+FrontThigh.stiffness 0.021
+RearThigh.stiffness 0.021
+RearCalf.stiffness 0.021
+
+# Quadratic Spring stiffness 0001
+FrontThigh.stiffness2 0.0055
+RearThigh.stiffness2 0.0055
+RearCalf.stiffness2 0.0055
+
+# Velocity removed/tick 1.0 would be all velocity removed 012
+FrontThigh.damping 0.0408
+RearThigh.damping 0.03
+RearCalf.damping 0.0408
+
+# Maximum number of units positio can diverge from target 64
+FrontThigh.maxoffset 2.5
+RearThigh.maxoffset 2.5
+RearCalf.maxoffset 2.5
+
+# Time Quanta for the physics in ms 4 means that a 16ms frame would be broken down into 4 4ms steps
+FrontThigh.timetick 2.0
+RearThigh.timetick 2.0
+RearCalf.timetick 2.0
+
+# Scale of the motion in X/Y/Z - Side, FrontnBack, UpnDown
+FrontThigh.linearX 3.0
+FrontThigh.linearY 1.4
+FrontThigh.linearZ 2.5
+RearThigh.linearX 4.0
+RearThigh.linearY 1.5
+RearThigh.linearZ 3.3
+RearCalf.linearX 1.2
+RearCalf.linearY 0.8
+RearCalf.linearZ 1.1
+
+# Scale of the bones rotation around the X axis
+FrontThigh.rotational 0.05
+RearThigh.rotational 0.05
+RearCalf.rotational 0.05
+
+FrontThigh.timeStep 0.9
+RearThigh.timeStep 0.8
+RearCalf.timeStep 0.9
+
+# END

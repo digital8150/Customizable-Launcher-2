@@ -1,0 +1,48 @@
+﻿<Window x:Class="SGLauncher2._0.Windows.updaterModule.update_autoinstall"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SGLauncher2._0.Windows.updaterModule"
+        mc:Ignorable="d"
+        Title="update_autoinstall" Height="350" Width="800"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:fa="http://schemas.fontawesome.com/icons/fonts"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Loaded="Window_loaded">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="/Fonts/#Noto Sans KR"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Border x:Name="border_main" Background="#fff" CornerRadius="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0" FontSize="18" FontWeight="Bold">
+                <fa:FontAwesome Icon="Solid_WandMagicSparkles" Margin="0,0,5,0"/> 모드팩 업데이트 마법사
+            </TextBlock>
+
+            <StackPanel Orientation="Vertical" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <fa:FontAwesome Name="status_icon" Icon="Solid_CircleNotch" FontSize="45" Spin="True"/>
+                <TextBlock Name="status_text" Text="자동 업데이트 진행중입니다." Margin="0,10,0,0" FontFamily="./resources/#a고딕17" FontSize="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" VerticalAlignment="Center">
+                <ProgressBar Name="install_progress" Height="35" Width="auto" Margin="40,5,40,5">
+
+                </ProgressBar>
+                <TextBlock Name="install_task" Text="Current_tasks" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="./resources/#a고딕13" FontSize="18"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

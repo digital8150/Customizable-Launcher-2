@@ -1,0 +1,16 @@
+# START BBP
+
+Breast.stiffness 0.02
+Breast.stiffness2 0.05
+Breast.damping 0.08
+Breast.maxoffset 8.0
+Breast.timetick 4.0
+Breast.linearX 1.0
+Breast.linearY 0.75
+Breast.linearZ 1.0
+Breast.rotational 0.05
+Breast.timeStep 0.60
+
+# END
+
+#Tuning.rate 60

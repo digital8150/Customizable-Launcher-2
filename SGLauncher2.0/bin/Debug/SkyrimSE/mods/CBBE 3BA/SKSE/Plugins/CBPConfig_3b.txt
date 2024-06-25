@@ -1,0 +1,58 @@
+# START ExtraBreast
+
+ExtraBreast1.gravityBias 0.005
+ExtraBreast2.gravityBias 0.00375
+ExtraBreast3.gravityBias 0.0025
+
+ExtraBreast1.gravityCorrection -0.5
+ExtraBreast2.gravityCorrection -0.375
+ExtraBreast3.gravityCorrection -0.25
+
+# Linear spring stiffness 004
+ExtraBreast1.stiffness 0.072
+ExtraBreast2.stiffness 0.072
+ExtraBreast3.stiffness 0.084
+
+# Quadratic Spring stiffness 0001
+ExtraBreast1.stiffness2 0.025
+ExtraBreast2.stiffness2 0.012
+ExtraBreast3.stiffness2 0.001
+
+# Velocity removed/tick 1.0 would be all velocity removed 012
+ExtraBreast1.damping 0.07
+ExtraBreast2.damping 0.06
+ExtraBreast3.damping 0.11
+
+# Maximum number of units positio can diverge from target 64
+ExtraBreast1.maxoffset 2.07
+ExtraBreast2.maxoffset 2.3
+ExtraBreast3.maxoffset 1.84
+
+# Time Quanta for the physics in ms 4 means that a 16ms frame would be broken down into 4 4ms steps
+ExtraBreast1.timetick 2.4
+ExtraBreast2.timetick 2.2
+ExtraBreast3.timetick 2.0
+
+# Scale of the motion in X/Y/Z - Side, FrontnBack, UpnDown
+ExtraBreast1.linearX 1.0869
+ExtraBreast1.linearY 0.4
+ExtraBreast1.linearZ 0.8152
+ExtraBreast2.linearX 1.0869
+ExtraBreast2.linearY 0.4
+ExtraBreast2.linearZ 0.8152
+ExtraBreast3.linearX 1.0869
+ExtraBreast3.linearY 0.4
+ExtraBreast3.linearZ 0.8152
+
+# Scale of the bones rotation around the X axis
+ExtraBreast1.rotational 0.0543
+ExtraBreast2.rotational 0.0489
+ExtraBreast3.rotational 0.0434
+
+ExtraBreast1.timeStep 0.48
+ExtraBreast2.timeStep 0.58
+ExtraBreast3.timeStep 0.53
+
+# END
+
+#Tuning.rate 300

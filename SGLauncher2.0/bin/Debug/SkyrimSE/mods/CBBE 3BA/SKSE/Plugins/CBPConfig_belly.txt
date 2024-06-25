@@ -1,0 +1,16 @@
+# START Belly
+
+Belly.stiffness 0.021
+Belly.stiffness2 0.0055
+Belly.damping 0.030
+Belly.maxoffset 3.0
+Belly.timetick 2.0
+Belly.linearX 2.0
+Belly.linearY 1.0
+Belly.linearZ 2.0
+Belly.rotational 0.05
+Belly.timeStep 0.7
+
+# END
+
+#Tuning.rate 60

@@ -1,0 +1,16 @@
+# START Butt
+
+Butt.stiffness 0.021
+Butt.stiffness2 0.0055
+Butt.damping 0.03
+Butt.maxoffset 3.0
+Butt.timetick 2.0
+Butt.linearX 3.5
+Butt.linearY 1.5
+Butt.linearZ 3.0
+Butt.rotational 0.05
+Butt.timeStep 0.7
+
+# END
+
+#Tuning.rate 60

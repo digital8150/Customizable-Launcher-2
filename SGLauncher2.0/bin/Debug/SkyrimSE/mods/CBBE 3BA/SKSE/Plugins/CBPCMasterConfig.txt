@@ -1,0 +1,134 @@
+##############################################################################
+# Performance and other Settings
+##############################################################################
+[Settings]
+
+TuningMode = 0       #Set this to 1 to enable tuning mode which will load the collision config files every 120 frames(Set it to 2 for every 240 frames etc.) to allow in game config modification
+
+ExtraRaces=Boar,Bear,Cave Bear,Chaurus,Chaurusflyer,Deathhound,Deer,Dog,Dragon Priest,Dragon Race,Draugr,Dwarven Spider,Falmer,Fox,Frost Atronach,Frostbite Spider,Gargoyle,Ghost Giant,Giant,Goat,HighlandCow,HMDaedra,Horker,Horse,Lurker,Mammoth,MountedRiekling,Netch,Riekling,RieklingThirsk,Sabre Cat,Scrib,Skeever,Skeleton,Snow Bear,Snow Troll,Snowy Sabre Cat,Spectral Dragon,Troll,Vampire Lord,Werebear,Werewolf,Wolf
+#You can enter extra races here to be supported, separated by a comma(,). By default all playable or talkable races are supported.
+
+MalePhysics=1        #You can set this to 1 to enable Male body physics.
+
+MalePhysicsOnlyForExtraRaces = 0  #Set this 1 to enable male physics for only ExtraRaces
+
+##############################################################################
+# Configuration Map for Bouncy Nodes
+#
+# You can add bounce to any node with this map and set the bounce configuration in a CBPConfig*****.txt file
+#
+# Affected nodes in CBPCollisionConfig files must be defined here first too.
+#
+##############################################################################
+[ConfigMap]                   
+NPC L Breast=Breast
+NPC R Breast=Breast
+NPC L Butt=Butt
+NPC R Butt=Butt
+HDT Belly=HDTBelly
+NPC Belly=Belly
+NPC Pelvis [Pelv]
+
+L Breast01=ExtraBreast1
+L Breast02=ExtraBreast2
+L Breast03=ExtraBreast3
+R Breast01=ExtraBreast1
+R Breast02=ExtraBreast2
+R Breast03=ExtraBreast3
+
+NPC L FrontThigh=FrontThigh
+NPC R FrontThigh=FrontThigh
+NPC L RearThigh=RearThigh
+NPC R RearThigh=RearThigh
+NPC L RearCalf [LrClf]=RearCalf
+NPC R RearCalf [RrClf]=RearCalf
+
+VaginaB1=Vagina
+Clitoral1=Vagina
+NPC L Pussy01=Labia
+NPC R Pussy01=Labia
+
+####SOS#################################
+NPC Genitals01 [Gen01]=NSOS01
+NPC Genitals02 [Gen02]=NSOS02
+NPC Genitals03 [Gen03]=NSOS03
+NPC Genitals04 [Gen04]=NSOS04
+NPC Genitals05 [Gen05]=NSOS05
+NPC Genitals06 [Gen06]=NSOS06
+GenitalsLag01=SOS01
+GenitalsLag02=SOS02
+GenitalsLag03=SOS03
+GenitalsLag04=SOS04
+GenitalsLag05=SOS05
+GenitalsLag06=SOS06
+GenitalsScrotumLag=SOSScrotum
+
+####AnimalSOS###########################
+NPC L Breast P1=Breast
+NPC R Breast P1=Breast
+NPC L Breast P2=Breast
+NPC R Breast P2=Breast
+NPC L Breast P3=Breast
+NPC R Breast P3=Breast
+
+Goat_RUdder_HDT 1e=RUdder_HDT 1e
+Goat_RUdder_HDT 2e=RUdder_HDT 2e
+Goat_RUdder_HDT 3e=RUdder_HDT 3e
+Goat_LUdder_HDT 1e=LUdder_HDT 1e
+Goat_LUdder_HDT 2e=LUdder_HDT 2e
+Goat_LUdder_HDT 3e=LUdder_HDT 3e
+
+HorseRUdder_HDT 1e=RUdder_HDT 1e
+HorseRUdder_HDT 2e=RUdder_HDT 2e
+HorseRUdder_HDT 3e=RUdder_HDT 3e
+HorseLUdder_HDT 1e=LUdder_HDT 1e
+HorseLUdder_HDT 2e=LUdder_HDT 2e
+HorseLUdder_HDT 3e=LUdder_HDT 3e
+GenitalsLScrotumLag=GenitalsLScrotumLag
+GenitalsRScrotumLag=GenitalsRScrotumLag
+NPC R PussyLag02=NPC R PussyLag02
+NPC L PussyLag02=NPC L PussyLag02
+Dragon L PussyLag02=Dragon L PussyLag02
+Dragon R PussyLag02=Dragon R PussyLag02
+Dragon L AnusLag02=Dragon L AnusLag02
+Dragon R AnusLag02=Dragon R AnusLag02
+Dragon U AnusLag02=Dragon U AnusLag02
+
+####TeraElinEars&Tails###################
+HDT EarR1.001 = TEar01
+HDT EarL1.001 = TEar01
+HDT EarR1.002 = TEar02
+HDT EarL1.002 = TEar02
+HDT EarR1.003 = TEar03
+HDT EarL1.003 = TEar03
+HDT EarR1.004 = TEar04
+HDT EarL1.004 = TEar04
+
+HDT EarR2.001 = TEar01
+HDT EarL2.001 = TEar01
+HDT EarR2.002 = TEar02
+HDT EarL2.002 = TEar02
+HDT EarR2.003 = TEar03
+HDT EarL2.003 = TEar03
+HDT EarR2.004 = TEar04
+HDT EarL2.004 = TEar04
+
+HDT TailBone01.1 = TTail01
+HDT TailBone01.2 = TTail02
+HDT TailBone01.3 = TTail02
+HDT TailBone02 = TTail02
+HDT TailBone02.1 = TTail03
+HDT TailBone02.2 = TTail03
+HDT TailBone02.3 = TTail03
+HDT TailBone03 = TTail03
+HDT TailBone03.1 = TTail03
+HDT TailBone03.2 = TTail03
+HDT TailBone03.3 = TTail03
+HDT TailBone04 = TTail03
+HDT TailBone04.1 = TTail03
+HDT TailBone04.2 = TTail03
+HDT TailBone04.3 = TTail03
+HDT TailBone05 = TTail03
+
+HDT Tail Spine1.001 = TTail01
+HDT Tail Spine1.001 = TTail02

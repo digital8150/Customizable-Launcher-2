@@ -1,0 +1,124 @@
+               Better Container Controls for SkyUI 3.1
+         
+                           by CDCooley
+                            2021-11-27
+
+                               for
+             The Elder Scrolls V: Skyrim Special Edition
+                               and
+                      SkyUI 5.2 SE (or later)
+
+     
+*********************************************************************
+
+
+Do you get annoyed by the quantity prompt or wish you could put all 
+of your ingredients away with a single command?
+
+Better Container Controls for SkyUI adds a few new features to the 
+SkyUI 5.2 container menu.
+
+
+*********************************************************************
+
+Version 3.1 final fixes the quantity prompt problems for gamepads.
+
+
+THE NEW CONTROLS
+
+The Use/Activate control (E key or A gamepad button) will now always
+display the Quantity Prompt menu (unless there's only one of the 
+currently selected item). To move exactly one of an item with no prompt 
+use the Attack/RightEquip control (left mouse button or RT gamepad 
+button) and to move all of a particular item with no prompt use the 
+Block/LeftEquip control (right mouse button or LT gamepad button). 
+You can change which function each button performs or turn off this 
+feature entirely using the bcc_config.txt file.
+
+The Ready control (R key or X gamepad button) is now active on every
+container view and will be either the default Take All or Take Most, 
+Give Most, or Store Most depending on which container view is active. 
+
+The Take All feature from the original game only works for containers
+when you are looking at the category with all items now. It becomes 
+Take Most or Store Most in the other container views and Take Most or
+Give Most when trading items with your followers.
+
+Why Most instead of All? You wouldn't want a Give All option when 
+talking to your follower because you will want to keep the clothes 
+and armor you're wearing, your equipped weapons, items you've marked 
+as favorites, your keys, lockpicks, gold, etc. And you probably don't
+want to take everything in the follower's inventory either.
+
+Keys aren't transferred by "Most" unless you're looking at just keys.
+Gold, lockpicks, items with names that begin with a space or the 
+center dot (·) character, and any other items you choose by name in 
+the bcc_config.txt file will also never be transferred automatically. 
+You can also choose whether soul gems should be transferred in the
+configuration file.
+
+The "Most" feature also only transfers items shown in the current
+view, so if you're looking at books only books will be transferred
+or if you've searched for Ingot then only the ingots showing will
+be moved.
+
+The "Most" feature works by simulating you choosing each item in
+the current view. If there are very many items in the container or 
+your inventory the process can be slow. (I don't recommend going to
+qasmoke and trying it on the All Weapons container, etc.) If you get
+tired of waiting or something seems to be going wrong simply close 
+the container menu.
+
+
+*********************************************************************
+
+
+KNOWN AND POTENTIAL MOD CONFLICTS
+
+None so far.
+
+
+*********************************************************************
+
+
+CONFIGURATION OPTIONS
+
+To set your own options simply rename the bcc_config_example.txt file 
+to bcc_config.txt, place it in the Data\Interface folder and edit it 
+with any text editor.
+
+There are instructions and example entries included showing you how
+to change the core settings, translate the new button labels to 
+your own language, and create a list of items which shouldn't be 
+moved automatically by the "Most" feature.
+
+
+*********************************************************************
+
+
+INSTALLATION
+
+Your mod manager will take care of this if you use one. Otherwise
+just copy the BSA and ESL file into the game's Data folder and 
+activate the ESL file. This uses the new ESL instead of an ESP because
+it's an extremly small mod. You may need to activate the ESL using
+the game's own mod management features if your mod manager of choice
+doesn't support ESL files yet.
+
+You'll need to manually install and edit the configuration file even
+if you use a mod manager. That's so that any updates to this mod won't
+overwrite the configuration changes you make.
+
+
+*********************************************************************
+
+
+CREDITS AND LICENSING
+
+This injects code into SkyUI's container menu using a technique I 
+learned from Schlangster.
+
+
+Charles Cooley
+cdcooley@fastmail.us
+cdcooley on the NexusMods

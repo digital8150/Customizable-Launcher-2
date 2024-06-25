@@ -1,0 +1,10 @@
+# Create a new race array and fill it with these settings;
+# 1. FormID = the Form ID of the race, gotten with CK, zEdit, or xEdit.
+# 2. Plugin = the name of the plugin. Gotten by looking in the mod's data folder.
+# 3. PoiseValues = The first number is Poise Health multiplier, the second is Poise Damage Multiplier.
+
+
+[[race]]
+FormID = 0x0131F6 # Frost Atronach (og mod had wrong formid, will remove this when its patched)
+Plugin = "Skyrim.esm"
+PoiseValues = [75.0, 30.0]
